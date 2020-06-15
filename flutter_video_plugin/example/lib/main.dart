@@ -32,7 +32,7 @@ class _MyAppState extends State<MyApp> {
           child: Container(
             width: 100,
             height: 100,
-            child: PlatformDemoView(
+            child: VideoPlatformView(
               onCreated: (controller){
 //                controller.reloadView();
               },

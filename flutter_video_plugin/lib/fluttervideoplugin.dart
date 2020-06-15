@@ -1,1 +1,1 @@
-export 'platformdemoview.dart';
+export 'videoplatformview.dart';

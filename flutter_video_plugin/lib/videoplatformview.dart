@@ -6,22 +6,22 @@ import 'package:flutter/services.dart';
 import 'fluttervideocontroller.dart';
 
 const String viewTypeString = 'plugins.flutter_video_plugin';
-typedef void PlatformDemoViewCreatedCallback(PlatformDemoViewController controller);
+typedef void VideoPlatformViewCreatedCallback(PlatformDemoViewController controller);
 
-class PlatformDemoView extends StatefulWidget {
+class VideoPlatformView extends StatefulWidget {
 
-  PlatformDemoView({
+  VideoPlatformView({
     Key key,
     this.onCreated,
   });
 
-  final PlatformDemoViewCreatedCallback onCreated;
+  final VideoPlatformViewCreatedCallback onCreated;
 
   @override
-  _PlatformDemoViewState createState() => _PlatformDemoViewState();
+  _VideoPlatformViewState createState() => _VideoPlatformViewState();
 }
 
-class _PlatformDemoViewState extends State<PlatformDemoView> {
+class _VideoPlatformViewState extends State<VideoPlatformView> {
   PlatformDemoViewController _controller;
   @override
   Widget build(BuildContext context) {
