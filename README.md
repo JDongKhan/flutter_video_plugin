@@ -1,6 +1,11 @@
-# flutter_video_plugin（待完善）
+# flutter_video_plugin
 
-这是一款万能的flutter播放器插件，万能在哪呢？
+目前只是一个demo，待完善
+
+这是一款万能的flutter播放器插件.
+
+万能在哪呢？
+
 
 可以适配任何播放器SDK。
 
